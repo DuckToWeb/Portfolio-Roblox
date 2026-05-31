@@ -19,7 +19,7 @@
     
 }
 body {
-    background-image: url(/Img/Background.png);
+    background-image: url("https://raw.githubusercontent.com/DuckToWeb/Portfolio-Roblox/refs/heads/main/Img/Background.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
