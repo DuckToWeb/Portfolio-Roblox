@@ -130,7 +130,6 @@ body {
     min-height: 100vh;
     justify-content: center;
     border-radius: 5px;
-    /* background-color: red; */
 }
 
 .EXPHead {
@@ -150,24 +149,19 @@ body {
     min-height: 100vh;
     justify-content: center;
     border-radius: 5px;
-    /* background-color: rgb(0, 47, 255); */
 }
 
 .EXP {
-    min-height: 40%;
-    width: 220px;
-    background-color: rgba(24, 24, 29, 0.8);
+    display: flex;          /* เพิ่มตรงนี้ */
+    flex-direction: column; /* บังคับให้รูปอยู่บน ข้อความอยู่ล่าง */
+    align-items: center;    /* จัดทุกอย่างให้อยู่กลางกล่อง */
+    min-height: 400px;      /* แนะนำให้ตั้ง min-height ให้พอดีกับเนื้อหา */
+    width: 280px;           /* ขยายความกว้างหน่อย จะได้ไม่ดูเป็นแท่งยาวเกินไป */
     background-color: rgb(24, 24, 29);
     border: 2px solid rgb(0, 255, 242);
     border-radius: 20px;
     margin: 20px;
-    word-break: break-word; 
-    overflow-wrap: break-word;
-    justify-items: center;
-    white-space: normal;
-    box-sizing: border-box;
-    overflow: hidden;
-
+    overflow: hidden;       /* ตัดส่วนเกินของรูปที่ล้นขอบมน */
     transition: transform 0.3s;
 }
 
@@ -178,9 +172,10 @@ body {
 
 
 .IMGBOX {
-    height: 50%;
     width: 100%;
-    margin: 0;
+    height: 180px;         /* ล็อกความสูงรูปไว้ไม่ให้เบียดตัวหนังสือ */
+    object-fit: cover;      /* ให้รูปตัดพอดีกล่อง ไม่เบี้ยว */
+    display: block;
 }
 
 .EXPHEAD {
