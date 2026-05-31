@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Roboto&display=swap');
+@keyframes Loaded {
+    0% {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    100% {
+        opacity: 100;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+    
+}
+body {
+    background-image: url(/Img/Background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+
+.HeadContent {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    animation: Loaded 0.5s;
+}
+
+
+.Head_ {
+    color: white;
+    /* background-color: green; */
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    margin-left: 30px;
+    text-shadow: 0 0 10px #66e0ff, 0 0 20px #66e0ff, 0 0 30px #66e0ff;
+    
+    
+}
+
+.H1PORT {
+    margin-top: 20px;
+    font-size: 3rem;
+    
+}
+
+.DetailsChild {
+    color: white;
+    /* background-color: green; */
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    margin: 30px;
+    align-self: center;
+    text-shadow: 0 0 10px #66e0ff, 0 0 20px #66e0ff, 0 0 30px #66e0ff;
+    font-size: 3rem;
+
+}
+
+
+.De {
+    animation: Loaded 0.5s;
+    min-height: 40%;
+    width: 220px;
+    background-color: rgba(24, 24, 29, 0.8);
+    background-color: rgb(24, 24, 29);
+    border: 2px solid rgb(0, 255, 242);
+    border-radius: 20px;
+    margin: 20px;
+    word-break: break-word; 
+    overflow-wrap: break-word;
+
+    justify-items: center;
+    padding: 20px 15px; 
+    white-space: normal;
+    box-sizing: border-box;
+
+    transition: transform 0.3s;
+
+    
+}
+
+.De:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+.Box-Head {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 90%;
+    margin: 2px;
+    font-size: 2.5vw;
+
+}
+
+.Box-Child {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 60%;
+    margin: 10px;
+    line-height: 1.4;
+    
+}
+
+.DETAILS-Con {
+    animation: Loaded 0.5s;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 100vh;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.EXP-CON {
+    animation: Loaded 0.5s;
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 100vh;
+    justify-content: center;
+    border-radius: 5px;
+    /* background-color: red; */
+}
+
+.EXPHead {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    text-shadow: 0 0 10px #66e0ff, 0 0 20px #66e0ff, 0 0 30px #66e0ff;
+    font-size: 3rem;
+    margin: 30px;
+
+
+}
+
+.EXP_BOX {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 100vh;
+    justify-content: center;
+    border-radius: 5px;
+    /* background-color: rgb(0, 47, 255); */
+}
+
+.EXP {
+    min-height: 40%;
+    width: 220px;
+    background-color: rgba(24, 24, 29, 0.8);
+    background-color: rgb(24, 24, 29);
+    border: 2px solid rgb(0, 255, 242);
+    border-radius: 20px;
+    margin: 20px;
+    word-break: break-word; 
+    overflow-wrap: break-word;
+    justify-items: center;
+    white-space: normal;
+    box-sizing: border-box;
+    overflow: hidden;
+
+    transition: transform 0.3s;
+}
+
+.EXP:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+
+.IMGBOX {
+    height: 50%;
+    width: 100%;
+    margin: 0;
+}
+
+.EXPHEAD {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 90%;
+    margin: 2px;
+    font-size: 2.5vw;
+}
+
+.EXPCHILD {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 60%;
+    margin: 10px;
+    line-height: 1.4;
+}
+
+.CONTACT {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 10%;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.C {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    margin: 30px;
+    align-self: center;
+    text-shadow: 0 0 10px #66e0ff, 0 0 20px #66e0ff, 0 0 30px #66e0ff;
+    font-size: 3rem;
+}
+
+
+
